@@ -4,6 +4,7 @@
 # 开发环境的配置
 
 from .base import * #NOQA注释:PEP8规范检测工具,这个地方需要检测
+import os
 
 DEBUG = True
 
