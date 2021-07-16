@@ -4,13 +4,12 @@
 # 开发环境的配置
 
 from .base import * #NOQA注释:PEP8规范检测工具,这个地方需要检测
-import os
 
 DEBUG = True
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR / 'db.blog',
     }
 }
